@@ -1,0 +1,9 @@
+/* line 5, /home/juanma/lorena/app/assets/stylesheets/menus.css.scss */
+.item {
+  width: 25%;
+}
+
+/* line 8, /home/juanma/lorena/app/assets/stylesheets/menus.css.scss */
+.item.w2 {
+  width: 50%;
+}
