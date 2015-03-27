@@ -1,1 +1,7 @@
-<%= render partial: 'partials/index', locals: { pages: @pages } %>
+<div class='uk-grid'>
+  <div class='uk-width-1-4'>
+    <%= render partial: 'pages/partials/index', locals: { pages: @pages } %>
+  </div>
+  <div id='gallery' class='uk-width-3-4'>
+  </div>
+</div>
