@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   scope :quenolosepamama do
     mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
     scope :api do
@@ -10,6 +11,17 @@ Rails.application.routes.draw do
         root 'pages#welcome'
       end
     end
+=======
+
+  scope :quenolosepamama do
+    mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+
+    resources :pages do
+      resources :galleries
+    end
+
+    root 'pages#welcome'
+>>>>>>> 14b71980cc4a76beb50936559ee8e81462417521
   end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

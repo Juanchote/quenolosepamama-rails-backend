@@ -6,10 +6,13 @@ class PagesController < ApplicationController
   # GET /pages.json
   def index
     @page = Page.all
+<<<<<<< HEAD
 
     respond_to do |format|
       format.json { render json: @page }
     end
+=======
+>>>>>>> 14b71980cc4a76beb50936559ee8e81462417521
   end
 
   # GET /pages/1
@@ -17,8 +20,12 @@ class PagesController < ApplicationController
   def show
     respond_to do |format|
       format.js
+<<<<<<< HEAD
       #format.html
       format.json
+=======
+      format.html
+>>>>>>> 14b71980cc4a76beb50936559ee8e81462417521
     end
   end
 
@@ -38,10 +45,17 @@ class PagesController < ApplicationController
 
     respond_to do |format|
       if @page.save
+<<<<<<< HEAD
         #format.html { redirect_to @page, notice: 'Page was successfully created.' }
         format.json { render :show, status: :created, location: @page }
       else
         #format.html { render :new }
+=======
+        format.html { redirect_to @page, notice: 'Page was successfully created.' }
+        format.json { render :show, status: :created, location: @page }
+      else
+        format.html { render :new }
+>>>>>>> 14b71980cc4a76beb50936559ee8e81462417521
         format.json { render json: @page.errors, status: :unprocessable_entity }
       end
     end

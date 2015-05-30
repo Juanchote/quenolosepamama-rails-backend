@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="header">
 <ul class="top">
     <span>&bull;</span>
@@ -28,5 +29,50 @@
   </div>
   <div class="gallery_menu">
     <%= render partial: 'pages/partials/index' %>
+=======
+
+<div id='header' class=''>
+  <nav id='' class="uk-navbar uk-navbar-attached">
+    <a href='#menu_offcanvas' class='uk-navbar-toggle uk-visible-small' data-uk-offcanvas="{target:'#menu_offcanvas'}"></a>
+
+    <ul id='' class='uk-navbar-nav uk-hidden-small'>
+      <li><%= link_to 'home', root_path %></li>
+      <li><%= link_to 'galerias', pages_path %></li>
+      <li><%= link_to 'cosas', '#' %></li>
+    </ul>
+
+    <div class="uk-navbar-flip">
+      <ul class="uk-navbar-nav uk-hidden-small">
+          <li><%= link_to fa_icon('sign-out 2x'), '#' %></li>
+          <li><%= link_to fa_icon('cog 2x'), '#' %></li>
+          <li><%= link_to fa_icon('sign-in 2x'), '#' %></li>
+      </ul>
+    </div>
+    <div class='uk-navbar-flip'>
+      <a href='#account_offcanvas' class='uk-icon-user uk-navbar-toggle uk-visible-small' data-uk-offcanvas="{target:'#account_offcanvas'}"></a>
+    </div>
+    <div class='uk-navbar-brand uk-navbar-center'>
+      QUENOLOSEPAMAMA
+    </div>
+
+  </nav>
+
+  <div id='menu_offcanvas' class='uk-offcanvas'>
+    <div class='uk-offcanvas-bar'>
+      <ul class='uk-nav uk-nav-offcanvas'>
+        <li><%= link_to 'home', root_path %></li>
+        <li><%= link_to 'galerias', pages_path %></li>
+        <li><%= link_to 'cosas', '#' %></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id='account_offcanvas' class='uk-offcanvas'>
+    <div class='uk-offcanvas-bar uk-offcanvas-bar-flip'>
+      <ul class='uk-nav uk-nav-offcanvas'>
+        <li>asd</li>
+      </ul>
+    </div>
+>>>>>>> 14b71980cc4a76beb50936559ee8e81462417521
   </div>
 </div>

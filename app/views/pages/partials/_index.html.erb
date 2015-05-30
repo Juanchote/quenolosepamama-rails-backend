@@ -1,4 +1,5 @@
 <% pages = Page.all %>
+<<<<<<< HEAD
 <nav>
   <% if pages.any? %> <span class="delimiter">/</span>
     <% pages.each do |page| %>
@@ -6,6 +7,23 @@
     <% end %>
   <% end %>
 </nav>
+=======
+<ul class="uk-nav uk-nav-parent-icon" data-uk-nav>
+  <% if pages.any? %>
+    <% pages.each do |page| %>
+      <li class="uk-parent uk-nav-header uk-nav-divider"><%= link_to page.name, '#' %>
+      <% if page.galleries.any? %>
+        <ul class="uk-nav-sub">
+          <% page.galleries.each do |gallery| %>
+            <li><%= link_to gallery.name, page_gallery_path(page,gallery), remote: true %></li>
+          <% end %>
+        </ul>
+      </li>
+      <% end %>
+    <% end %>
+  <% end %>
+</ul>
+>>>>>>> 14b71980cc4a76beb50936559ee8e81462417521
 
 
 

@@ -13,9 +13,12 @@
 
 ActiveRecord::Schema.define(version: 20150308202550) do
 
+<<<<<<< HEAD
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+=======
+>>>>>>> 14b71980cc4a76beb50936559ee8e81462417521
   create_table "galleries", force: true do |t|
     t.string   "name"
     t.string   "description"
