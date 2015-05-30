@@ -1,0 +1,11 @@
+<% pages = Page.all %>
+<nav>
+  <% if pages.any? %> <span class="delimiter">/</span>
+    <% pages.each do |page| %>
+      <%= link_to page.name, '#' %> <span class="delimiter">/</span>
+    <% end %>
+  <% end %>
+</nav>
+
+
+

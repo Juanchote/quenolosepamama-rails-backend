@@ -1,0 +1,32 @@
+<div class="header">
+<ul class="top">
+    <span>&bull;</span>
+    <li><%= link_to 'eventos', '#' %></li>
+    <span>&bull;</span>
+    <li><%= link_to 'nuestros clientes', '#' %></li>
+    <span>&bull;</span>
+    <li><%= link_to 'contacto', '#' %></li>
+    <span>&bull;</span>
+    <li><%= link_to 'acerca de', '#' %></li>
+    <span>&bull;</span>
+  </ul>
+
+  <div class="center">
+    <div class="socials">
+      <%= link_to(fa_icon('facebook-square 2x'), '#') %>
+      <%= link_to(fa_icon('twitter-square 2x'), '#') %>
+      <%= link_to(fa_icon('instagram 2x'), '#') %>
+      <%= link_to(fa_icon('youtube-square 2x'), '#') %>
+    </div>
+    <div class="logo">
+      QUENOLOSEPAMAMA
+    </div>
+
+    <div class="right">
+      <%= link_to 'Identifícate', '#' %>
+    </div>
+  </div>
+  <div class="gallery_menu">
+    <%= render partial: 'pages/partials/index' %>
+  </div>
+</div>

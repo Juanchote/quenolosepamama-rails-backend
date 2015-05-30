@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'fira_sanshair';
+  src: url('/assets/firasans-hair/firasans-hair-webfont.eot');
+  src: url('/assets/firasans-hair/firasans-hair-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/assets/firasans-hair/firasans-hair-webfont.woff') format('woff'),
+  url('/assets/firasans-hair/firasans-hair-webfont.ttf') format('truetype'),
+  url('/assets/firasans-hair/firasans-hair-webfont.svg#firasans-hair') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fira_sansthin';
+  src: url('/assets/firasans-thin/firasans-thin-webfont.eot');
+  src: url('/assets/firasans-thin/firasans-thin-webfont.eot?#iefix') format('embedded-opentype'),
+  url('firasans-thin-webfont.woff2') format('woff2'),
+  url('/assets/firasans-thin/firasans-thin-webfont.woff') format('woff'),
+  url('/assets/firasans-thin/firasans-thin-webfont.ttf') format('truetype'),
+  url('/assets/firasans-thin/firasans-thin-webfont.svg#fira_sansthin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'fira_sansultralight';
+  src: url('/assets/fira_sansultralight/firasans-ultralight-webfont.eot');
+  src: url('/assets/fira_sansultralight/firasans-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fira_sansultralight/firasans-ultralight-webfont.woff2') format('woff2'),
+  url('/assets/fira_sansultralight/firasans-ultralight-webfont.woff') format('woff'),
+  url('/assets/fira_sansultralight/firasans-ultralight-webfont.ttf') format('truetype'),
+  url('/assets/fira_sansultralight/firasans-ultralight-webfont.svg#fira_sansultralight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
