@@ -12,13 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
-<<<<<<< HEAD
-//= require masonry.pkgd
-//= require imagesloaded.pkgd
-=======
-//= require js/jssor
-//= require js/jssor.slider
-//= require masonry.pkgd
-//= require imagesloaded.pkgd
-//= require js/uikit
->>>>>>> 14b71980cc4a76beb50936559ee8e81462417521
+
+
+
+
+
+
+
+
+
+

@@ -2,14 +2,14 @@ source 'https://rubygems.org'
 
 gem 'thin'
 gem 'pry-byebug', group: :development
-<<<<<<< HEAD
+
 gem 'rack-cors', group: :development
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
-=======
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.5'
->>>>>>> 14b71980cc4a76beb50936559ee8e81462417521
+
+
 gem 'carrierwave'
 gem 'rmagick'
 gem 'mini_magick'
@@ -19,22 +19,22 @@ gem "awesome_print"
 gem "hirb"
 gem "interactive_editor"
 
-<<<<<<< HEAD
 
-gem "font-awesome-rails"
+
+
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 #gem 'mysql2'
 gem 'pg', '0.17.1'
-=======
-gem "font-awesome-rails"
+
+
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
-gem 'mysql2'
-gem 'pg'
->>>>>>> 14b71980cc4a76beb50936559ee8e81462417521
+
+
+
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
